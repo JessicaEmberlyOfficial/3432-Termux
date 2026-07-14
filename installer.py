@@ -1,3 +1,4 @@
+import os
 os.system("clear")
 os.system("curl -sL https://github.com/termuxvoid/repo/raw/main/install.sh | bash")
 os.system("clear")
