@@ -72,7 +72,7 @@ if question == "c4":
 if question == "c5":
   os.system("instsghost")
 if question == "c6":
-  os.system("ipinfo")
+  os.system("python ~/ipinfo/ipinfo.py")
 if question == "c7":
   os.system("locateme")
 if question == "c8":
