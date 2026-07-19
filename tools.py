@@ -6,12 +6,11 @@ Attack Tools:
 (a2). powerdos - Denial-Of-Service tool.
 
 Defensive Tools:
-(b1). 5luser - Unlimited 5-letter usernames for Instagram.
-(b2). bitb-framework - Browser in the browser attack framework.
-(b3). cctvip - CCTVPIP camera database.
-(b4). local2onion - Expose localhost on the darkweb using Tor.
-(b5). maskme - URL masking tool.
-(b6). shorturl - URL shortening tool.
+(b1). bitb-framework - Browser in the browser attack framework.
+(b2). cctvip - CCTVPIP camera database.
+(b3). local2onion - Expose localhost on the darkweb using Tor.
+(b4). maskme - URL masking tool.
+(b5). shorturl - URL shortening tool.
 
 Information Gathering:
 (c1). darkcrawler - Crawl .onion sites through Tor and generate threat reports.
@@ -48,19 +47,18 @@ if question == "a1":
   os.system("darksploit-framework")
 if question == "a2":
   os.system("powerdos")
-
+  
 if question == "b1":
-  os.system("5luser")
-if question == "b2":
   os.system("bitb-framework")
-if question == "b3":
+if question == "b2":
   os.system("cctvip")
-if question == "b4":
+if question == "b3":
   os.system("local2onion")
-if question == "b5":
+if question == "b4":
   os.system("maskme")
-if question == "b6":
+if question == "b5":
   os.system("shorturl")
+  
 if question == "c1":
   os.system("darkcrawler")
 if question == "c2":
