@@ -113,7 +113,7 @@ if question == "c16":
     os.system("clear")
     username = input("What username?: ")
     os.system("clear")
-    os.system("cd ~ && go/bin && ./leaker username " + username)
+    os.system("cd ~ && cd go/bin && ./leaker username " + username)
 
 if question == "d1":
   os.system("elpscrk")
