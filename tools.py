@@ -1,18 +1,17 @@
 import os
 os.system("clear")
-question = input("""
-Attack Tools:
+question = input("""\33[91mAttack Tools:
 (a1). darksploit-framework - Tool to run and create exploits.
 (a2). powerdos - Denial-Of-Service tool.
 
-Defensive Tools:
+\33[94mDefensive Tools:
 (b1). bitb-framework - Browser in the browser attack framework.
 (b2). cctvip - CCTVPIP camera database.
 (b3). local2onion - Expose localhost on the darkweb using Tor.
 (b4). maskme - URL masking tool.
 (b5). shorturl - URL shortening tool.
 
-Information Gathering:
+\33[93mInformation Gathering:
 (c1). darkcrawler - Crawl .onion sites through Tor and generate threat reports.
 (c2). holehe - Email OSINT tool.
 (c3). hound - Lightweight info gathering and GPS coordinate capture.
@@ -28,7 +27,7 @@ Information Gathering:
 (c15). webinfo - Website information gathering tool.
 (c16). leaker - Passive leak enumeration tool.
 
-Password Tools:
+\33[91mPassword Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
 (d2). THC-Hydra - Parallelized login cracker supporting many protocols.
 
@@ -39,11 +38,13 @@ Social Engineering:
 (e4). setoolkit - Social Engineeeing toolkit.
 (e5). the-theif - Hijack cookies and transmit them to Telegram.
 
-Web Security and Tunneling:
+\33[94mWeb Security and Tunneling:
 (f1). afrog - Fast Vulnerability Scanner with PoC Support.
 (f2). ngrok - Secure tunneling to localhost.
 
-Please make a choice: """)
+\33[91m(e). exit - This exits this script.
+
+\33[97mPlease make a choice: """)
 if question == "a1":
   os.system("darksploit-framework")
 if question == "a2":
@@ -135,3 +136,7 @@ if question == "f1":
   os.system("afrog")
 if question == "f2":
   os.system("ngrok")
+
+if question == "e":
+  os.system("clear")
+  os.system("exit")
