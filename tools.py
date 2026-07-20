@@ -26,6 +26,7 @@ Information Gathering:
 (c13). sherlock - Username discovery tool.
 (c14). tookie-osint - OSINT username search tool – scan 400+ social platforms.
 (c15). webinfo - Website information gathering tool.
+(c16). leaker - Passive leak enumeration tool.
 
 Password Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
@@ -85,6 +86,34 @@ if question == "c14":
   os.system("tookie-osint")
 if question == "c15":
   os.system("webinfo")
+if question == "c16":
+  os.system("clear")
+  which = input("(d)omain, (e)mail, (k)eyword, (p)hone, (u)sername?: ")
+  if which == "d":
+    os.system("clear")
+    domain = input("What domain?: ")
+    os.system("clear")
+    os.system("cd ~ && cd go/bin && ./leaker domain " + domain)
+  if which == "e":
+    os.system("clear")
+    email = input("What email?: ")
+    os.system("clear")
+    os.system("cd ~ && cd go/bin && ./leaker email " + email)
+  if which == "k":
+    os.system("clear")
+    keyword = input("What keyword?: ")
+    os.system("clear")
+    os.system("cd ~ && cd go/bin && ./leaker keyword " + keyword)
+  if which == "p":
+    os.system("clear")
+    phonenumber = input("What phone number?: ")
+    os.system("clear")
+    os.system("cd ~ && cd go/bin && ./leaker phone " + phonenumber)
+  if which == "u":
+    os.system("clear")
+    username = input("What username?: ")
+    os.system("clear")
+    os.system("cd ~ && go/bin && ./leaker username " + username)
 
 if question == "d1":
   os.system("elpscrk")
