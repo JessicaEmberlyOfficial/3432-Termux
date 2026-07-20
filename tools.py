@@ -89,7 +89,7 @@ if question == "c15":
 if question == "d1":
   os.system("elpscrk")
 if question == "d2":
-  os.system("thc-hydra")
+  os.system("hydra")
 
 if question == "e1":
   os.system("beef")
