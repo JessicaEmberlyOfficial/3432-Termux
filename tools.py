@@ -29,6 +29,7 @@ Information Gathering:
 
 Password Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
+(d2). THC-Hydra - Parallelized login cracker supporting many protocols.
 
 Social Engineering:
 (e1). BeeF - Browser Exploitation Framework.
@@ -87,6 +88,8 @@ if question == "c15":
 
 if question == "d1":
   os.system("elpscrk")
+if question == "d2":
+  os.system("thc-hydra")
 
 if question == "e1":
   os.system("beef")
