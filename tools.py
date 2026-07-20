@@ -14,19 +14,18 @@ Defensive Tools:
 
 Information Gathering:
 (c1). darkcrawler - Crawl .onion sites through Tor and generate threat reports.
-(c2). dorks-eye - Google dorking tool.
-(c3). holehe - Email OSINT tool.
-(c4). hound - Lightweight info gathering and GPS coordinate capture.
-(c5). instaghost - Professional Instagram OSINT tool.
-(c6). ipinfo - IP information gathering.
-(c7). locateme - Live location tracker using Google Maps.
-(c8). maigret - Check username availability.
-(c9). numinfo - Phone number intelligence and lookup tool.
-(c10). onionsearch - Scrape .onion URLs from various Tor search engines.
-(c11). phoneinfo - Phone number information gathering tool.
-(c12). sherlock - Username discovery tool.
-(c13). tookie-osint - OSINT username search tool – scan 400+ social platforms.
-(c14). webinfo - Website information gathering tool.
+(c2). holehe - Email OSINT tool.
+(c3). hound - Lightweight info gathering and GPS coordinate capture.
+(c4). instaghost - Professional Instagram OSINT tool.
+(c5). ipinfo - IP information gathering.
+(c6). locateme - Live location tracker using Google Maps.
+(c7). maigret - Check username availability.
+(c8). numinfo - Phone number intelligence and lookup tool.
+(c11). onionsearch - Scrape .onion URLs from various Tor search engines.
+(c12). phoneinfo - Phone number information gathering tool.
+(c13). sherlock - Username discovery tool.
+(c14). tookie-osint - OSINT username search tool – scan 400+ social platforms.
+(c15). webinfo - Website information gathering tool.
 
 Password Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
@@ -61,31 +60,29 @@ if question == "b5":
   
 if question == "c1":
   os.system("darkcrawler")
-if question == "c2":
-  os.system("dorks-eye")
-if question == "c3":
-  os.system("holehe")
 if question == "c4":
-  os.system("hound")
+  os.system("holehe")
 if question == "c5":
-  os.system("instsghost")
+  os.system("hound")
 if question == "c6":
-  os.system("python ~/ipinfo/ipinfo.py")
+  os.system("instsghost")
 if question == "c7":
-  os.system("locateme")
+  os.system("python ~/ipinfo/ipinfo.py")
 if question == "c8":
-  os.system("maigret")
+  os.system("locateme")
 if question == "c9":
-  os.system("numunfo")
+  os.system("maigret")
 if question == "c10":
-  os.system("onionsearch")
+  os.system("numunfo")
 if question == "c11":
-  os.system("phoneinfo")
+  os.system("onionsearch")
 if question == "c12":
-  os.system("sherlock")
+  os.system("phoneinfo")
 if question == "c13":
-  os.system("tookie-osint")
+  os.system("sherlock")
 if question == "c14":
+  os.system("tookie-osint")
+if question == "c15":
   os.system("webinfo")
 
 if question == "d1":
