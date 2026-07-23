@@ -1,4 +1,5 @@
 import os
+import socket
 os.system("clear")
 question = input("""\33[91mAttack Tools:
 (a1). darksploit-framework - Tool to run and create exploits.
@@ -26,6 +27,7 @@ question = input("""\33[91mAttack Tools:
 (c14). tookie-osint - OSINT username search tool – scan 400+ social platforms.
 (c15). webinfo - Website information gathering tool.
 (c16). leaker - Passive leak enumeration tool.
+(c17). web2ip - Website to IP tool.
 
 \33[91mPassword Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
@@ -115,6 +117,12 @@ if question == "c16":
     username = input("What username?: ")
     os.system("clear")
     os.system("cd ~ && cd go/bin && ./leaker username " + username)
+if question == "c17":
+  os.system("clear")
+  website = input("Please enter a website: ")
+  os.system("clear")
+  ip = socket.gethostbyname(website)
+  print("The website IP is: " + ip)
 
 if question == "d1":
   os.system("elpscrk")
