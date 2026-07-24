@@ -48,48 +48,69 @@ Social Engineering:
 
 \33[97mPlease make a choice: """)
 if question == "a1":
+  os.system("clear")
   os.system("darksploit-framework")
 if question == "a2":
+  os.system("clear")
   os.system("powerdos")
   
 if question == "b1":
+  os.system("clear")
   os.system("bitb-framework")
 if question == "b2":
+  os.system("clear")
   os.system("cctvip")
 if question == "b3":
+  os.system("clear")
   os.system("local2onion")
 if question == "b4":
+  os.system("clear")
   os.system("maskme")
 if question == "b5":
+  os.system("clear")
   os.system("shorturl")
   
 if question == "c1":
+  os.system("clear")
   os.system("darkcrawler")
 if question == "c4":
+  os.system("clear")
   os.system("holehe")
 if question == "c5":
+  os.system("clear")
   os.system("hound")
 if question == "c6":
+  os.system("clear")
   os.system("instsghost")
 if question == "c7":
+  os.system("clear")
   os.system("python ~/ipinfo/ipinfo.py")
 if question == "c8":
+  os.system("clear")
   os.system("locateme")
 if question == "c9":
+  os.system("clear")
   os.system("maigret")
 if question == "c10":
+  os.system("clear")
   os.system("numunfo")
 if question == "c11":
+  os.system("clear")
   os.system("onionsearch")
 if question == "c12":
+  os.system("clear")
   os.system("phoneinfo")
 if question == "c13":
+  os.system("clear")
   os.system("sherlock")
 if question == "c14":
+  os.system("clear")
   os.system("tookie-osint")
 if question == "c15":
+  os.system("clear")
   os.system("webinfo")
 if question == "c16":
+  os.system("clear")
   os.system("clear")
   which = input("(d)omain, (e)mail, (k)eyword, (p)hone, (u)sername?: ")
   if which == "d":
@@ -125,24 +146,33 @@ if question == "c17":
   print("The website IP is: " + ip)
 
 if question == "d1":
+  os.system("clear")
   os.system("elpscrk")
 if question == "d2":
+  os.system("clear")
   os.system("hydra")
 
 if question == "e1":
+  os.system("clear")
   os.system("beef")
 if question == "e2":
+  os.system("clear")
   os.system("phishmailer")
 if question == "e3":
+  os.system("clear")
   os.system("sms-stealer")
 if question == "e4":
+  os.system("clear")
   os.system("setoolkit")
 if question == "e5":
+  os.system("clear")
   os.system("the-theif")
 
 if question == "f1":
+  os.system("clear")
   os.system("afrog")
 if question == "f2":
+  os.system("clear")
   os.system("ngrok")
 
 if question == "e":
