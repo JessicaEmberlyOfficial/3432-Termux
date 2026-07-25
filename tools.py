@@ -3,7 +3,8 @@ import socket
 os.system("clear")
 question = input("""\33[91mAttack Tools:
 (a1). darksploit-framework - Tool to run and create exploits.
-(a2). powerdos - Denial-Of-Service tool.
+(a2). Ransomware - A tool to create Ransomware.
+(a3). powerdos - Denial-Of-Service tool.
 
 \33[94mDefensive Tools:
 (b1). bitb-framework - Browser in the browser attack framework.
@@ -33,6 +34,7 @@ question = input("""\33[91mAttack Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
 (d2). GoblinWordGnerator - Password profiling tool similar to elpscrk.
 (d3). THC-Hydra - Parallelized login cracker supporting many protocols.
+(d4). Instagram Bruter - Instagram bruteforcing tool.
 
 Social Engineering:
 (e1). BeeF - Browser Exploitation Framework.
@@ -52,6 +54,8 @@ if question == "a1":
   os.system("clear")
   os.system("darksploit-framework")
 if question == "a2":
+  os.system("cd " + os.getcwd() + "/Ransomware/ && python3 Ransomware")
+if question == "a3":
   os.system("clear")
   os.system("powerdos")
   
@@ -154,7 +158,13 @@ if question == "d2":
 if question == "d3":
   os.system("clear")
   os.system("hydra")
-
+if question == "d4":
+  os.system("clear")
+  username = input("What is the username?: ")
+  os.system("clear")
+  passlist = input("Where is your passlist? (e.g. ~/mypasslist.txt): ")
+  os.system("clear")
+  os.system("cd " + os.getcwd() + "/instabruteforce && python -u " + username + "-p " + passlist)
 if question == "e1":
   os.system("clear")
   os.system("beef")
