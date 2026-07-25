@@ -31,7 +31,8 @@ question = input("""\33[91mAttack Tools:
 
 \33[91mPassword Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
-(d2). THC-Hydra - Parallelized login cracker supporting many protocols.
+(d2). GoblinWordGnerator - Password profiling tool similar to elpscrk.
+(d3). THC-Hydra - Parallelized login cracker supporting many protocols.
 
 Social Engineering:
 (e1). BeeF - Browser Exploitation Framework.
@@ -84,7 +85,7 @@ if question == "c6":
   os.system("instsghost")
 if question == "c7":
   os.system("clear")
-  os.system("python ~/ipinfo/ipinfo.py")
+  os.system("python " + os.getcwd() + "/ipinfo/ipinfo.py")
 if question == "c8":
   os.system("clear")
   os.system("locateme")
@@ -117,27 +118,27 @@ if question == "c16":
     os.system("clear")
     domain = input("What domain?: ")
     os.system("clear")
-    os.system("cd ~ && cd go/bin && ./leaker domain " + domain)
+    os.system("cd ~ && cd ~/go/bin && ./leaker domain " + domain)
   if which == "e":
     os.system("clear")
     email = input("What email?: ")
     os.system("clear")
-    os.system("cd ~ && cd go/bin && ./leaker email " + email)
+    os.system("cd ~ && cd ~/go/bin && ./leaker email " + email)
   if which == "k":
     os.system("clear")
     keyword = input("What keyword?: ")
     os.system("clear")
-    os.system("cd ~ && cd go/bin && ./leaker keyword " + keyword)
+    os.system("cd ~ && cd ~/go/bin && ./leaker keyword " + keyword)
   if which == "p":
     os.system("clear")
     phonenumber = input("What phone number?: ")
     os.system("clear")
-    os.system("cd ~ && cd go/bin && ./leaker phone " + phonenumber)
+    os.system("cd ~ && cd ~/go/bin && ./leaker phone " + phonenumber)
   if which == "u":
     os.system("clear")
     username = input("What username?: ")
     os.system("clear")
-    os.system("cd ~ && cd go/bin && ./leaker username " + username)
+    os.system("cd ~ && cd ~/go/bin && ./leaker username " + username)
 if question == "c17":
   os.system("clear")
   website = input("Please enter a website: ")
@@ -149,6 +150,8 @@ if question == "d1":
   os.system("clear")
   os.system("elpscrk")
 if question == "d2":
+  os.system("clear && cd " + os.getcwd() + "/GoblinWordGenerator && python goblin.py")
+if question == "d3":
   os.system("clear")
   os.system("hydra")
 
