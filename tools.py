@@ -162,7 +162,8 @@ if question == "c12":
   os.system("phoneinfo")
 if question == "c13":
   os.system("clear")
-  os.system("sherlock")
+  username = input("What username do you want to search?: ")
+  os.system("clear && cd sherlock && ./sherlock " + username)
 if question == "c14":
   os.system("clear")
   os.system("tookie-osint")
