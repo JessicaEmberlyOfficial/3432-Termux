@@ -141,7 +141,7 @@ if question == "c5":
   os.system("hound")
 if question == "c6":
   os.system("clear")
-  os.system("instsghost")
+  os.system("instaghost")
 if question == "c7":
   os.system("clear")
   os.system("python " + os.getcwd() + "/ipinfo/ipinfo.py")
@@ -153,7 +153,7 @@ if question == "c9":
   os.system("maigret")
 if question == "c10":
   os.system("clear")
-  os.system("numunfo")
+  os.system("numinfo")
 if question == "c11":
   os.system("clear")
   os.system("onionsearch")
@@ -171,7 +171,6 @@ if question == "c15":
   os.system("clear")
   os.system("webinfo")
 if question == "c16":
-  os.system("clear")
   os.system("clear")
   which = input("(d)omain, (e)mail, (k)eyword, (p)hone, (u)sername?: ")
   if which == "d":
