@@ -20,6 +20,7 @@ question = input("""
 (a3). powerdos - Denial-Of-Service tool.
 (a4). GoldenEye - Denial-Of-Service tool.
 (a5). EliteToolKit - Denial-Of-Service tool.
+(a6). TextBelt-Spammer - SMS spamming tool.
 
 \33[94mDefensive Tools:
 (b1). bitb-framework - Browser in the browser attack framework.
@@ -117,6 +118,8 @@ if question == "a4":
     os.system("python " + os.getcwd() + "/GoldenEye/goldeneye.py " + target + " -u " + os.getcwd() + "/" + uafile + " -w " + workers + " -s " + sockets + " -m " + method + " -n " + verify + " -d " + debug)
 if question == "a5":
   os.system("clear && python " + os.getcwd() + "/EliteToolKit/elitekitv1.py")
+if question == "a6":
+  os.system("clear && python " + os.getcwd() + "/TextBelt-Spammer/ts.py")
 
 if question == "b1":
   os.system("clear")
