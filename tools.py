@@ -119,6 +119,9 @@ if question == "a4":
 if question == "a5":
   os.system("clear && python " + os.getcwd() + "/EliteToolKit/elitekitv1.py")
 if question == "a6":
+  os.system("clear")
+  print("Please customize your (*.ini) file in order to exceed the 10 message limit.")
+  time.sleep(3)
   os.system("clear && python " + os.getcwd() + "/TextBelt-Spammer/ts.py")
 
 if question == "b1":
