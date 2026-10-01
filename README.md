@@ -10,6 +10,7 @@ Attack Tools:
 (a3). powerdos - Denial-Of-Service tool.
 (a4). GoldenEye - Denial-Of-Service tool.
 (a5). EliteToolKit - Denial-Of-Service tool.
+(a6). TextBelt-Spammer - SMS spamming tool.
 
 Defensive Tools:
 (b1). bitb-framework - Browser in the browser attack framework.
