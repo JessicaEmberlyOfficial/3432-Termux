@@ -121,7 +121,9 @@ if question == "a5":
 if question == "a6":
   os.system("clear")
   print("Please customize your (*.ini) file in order to exceed the 10 message limit.")
-  time.sleep(3)
+  time.sleep(5)
+  print("The file is in " + os.getcwd() + "/TextBelt-Spammer/spammer.ini")
+  time.sleep(5)
   os.system("clear && python " + os.getcwd() + "/TextBelt-Spammer/ts.py")
 
 if question == "b1":
