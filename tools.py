@@ -1,6 +1,7 @@
 import os
 import socket
 import random
+import time
 os.system("clear")
 question = input("""
 \33[93m//////////////////////////////////////////////////////
@@ -64,6 +65,9 @@ Social Engineering:
 
 \33[93mCase Development:
 (g1). cng - Case number generator.
+
+\33[93mEncryption Tools:
+(h1). Stra1n - Encryption algorithm.
 
 \33[91m(e). exit - This exits this script.
 
@@ -267,6 +271,15 @@ if question == "g1":
       number = f.write("1")
       os.system("clear")
       print("Your case number is: " + initial + "-" + state + "-1")
+if question == "h1":
+  os.system("clear")
+  print("Please customize the (*.ini) file for Stra1n in-order to allow for Stra1n to be un-readable to prying eyes.")
+  time.sleep(3)
+  os.system("clear")
+  print("The file is in " + os.getcwd() + "/Stra1n/Stra1n.ini")
+  time.sleep(3)
+  os.system("clear")
+  os.system("cd Stra1n && python run.py")
 
 if question == "e":
   os.system("clear")
