@@ -55,6 +55,9 @@ Web Security and Tunneling:
 
 Case Development:
 (g1). cng - Case number generator.
+
+Encryption Tools:
+(h1). Stra1n - Encryption algorithm.
 ```
 
 ## Requirements
