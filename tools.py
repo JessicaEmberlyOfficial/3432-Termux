@@ -274,10 +274,10 @@ if question == "g1":
 if question == "h1":
   os.system("clear")
   print("Please customize the (*.ini) file for Stra1n in-order to allow for Stra1n to be un-readable to prying eyes.")
-  time.sleep(3)
+  time.sleep(5)
   os.system("clear")
   print("The file is in " + os.getcwd() + "/Stra1n/Stra1n.ini")
-  time.sleep(3)
+  time.sleep(5)
   os.system("clear")
   os.system("cd Stra1n && python run.py")
 
