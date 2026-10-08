@@ -28,13 +28,13 @@ Information Gathering:
 (c6). locateme - Live location tracker using Google Maps.
 (c7). maigret - Check username availability.
 (c8). numinfo - Phone number intelligence and lookup tool.
-(c11). onionsearch - Scrape .onion URLs from various Tor search engines.
-(c12). phoneinfo - Phone number information gathering tool.
-(c13). sherlock - Username discovery tool.
-(c14). tookie-osint - OSINT username search tool – scan 400+ social platforms.
-(c15). webinfo - Website information gathering tool.
-(c16). leaker - Passive leak enumeration tool.
-(c17). web2ip - Website to IP tool.
+(c9). onionsearch - Scrape .onion URLs from various Tor search engines.
+(c10). phoneinfo - Phone number information gathering tool.
+(c11). sherlock - Username discovery tool.
+(c12). tookie-osint - OSINT username search tool – scan 400+ social platforms.
+(c13). webinfo - Website information gathering tool.
+(c14). leaker - Passive leak enumeration tool.
+(c15). web2ip - Website to IP tool.
 
 Password Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
