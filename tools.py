@@ -38,13 +38,13 @@ question = input("""
 (c6). locateme - Live location tracker using Google Maps.
 (c7). maigret - Check username availability.
 (c8). numinfo - Phone number intelligence and lookup tool.
-(c11). onionsearch - Scrape .onion URLs from various Tor search engines.
-(c12). phoneinfo - Phone number information gathering tool.
-(c13). sherlock - Username discovery tool.
-(c14). tookie-osint - OSINT username search tool – scan 400+ social platforms.
-(c15). webinfo - Website information gathering tool.
-(c16). leaker - Passive leak enumeration tool.
-(c17). web2ip - Website to IP tool.
+(c9). onionsearch - Scrape .onion URLs from various Tor search engines.
+(c10). phoneinfo - Phone number information gathering tool.
+(c11). sherlock - Username discovery tool.
+(c12). tookie-osint - OSINT username search tool – scan 400+ social platforms.
+(c13). webinfo - Website information gathering tool.
+(c14). leaker - Passive leak enumeration tool.
+(c15). web2ip - Website to IP tool.
 
 \33[91mPassword Tools:
 (d1). elpscrk - Password profiling tool inspired by the Mr. Robot series.
@@ -145,44 +145,44 @@ if question == "b5":
 if question == "c1":
   os.system("clear")
   os.system("darkcrawler")
-if question == "c4":
+if question == "c2":
   os.system("clear")
   os.system("holehe")
-if question == "c5":
+if question == "c3":
   os.system("clear")
   os.system("hound")
-if question == "c6":
+if question == "c4":
   os.system("clear")
   os.system("instaghost")
-if question == "c7":
+if question == "c5":
   os.system("clear")
   os.system("python " + os.getcwd() + "/ipinfo/ipinfo.py")
-if question == "c8":
+if question == "c6":
   os.system("clear")
   os.system("locateme")
-if question == "c9":
+if question == "c7":
   os.system("clear")
   os.system("maigret")
-if question == "c10":
+if question == "c8":
   os.system("clear")
   os.system("numinfo")
-if question == "c11":
+if question == "c9":
   os.system("clear")
   os.system("onionsearch")
-if question == "c12":
+if question == "c10":
   os.system("clear")
   os.system("phoneinfo")
-if question == "c13":
+if question == "c11":
   os.system("clear")
   username = input("What username do you want to search?: ")
   os.system("clear && cd sherlock && ./sherlock " + username)
-if question == "c14":
+if question == "c12":
   os.system("clear")
   os.system("tookie-osint")
-if question == "c15":
+if question == "c13":
   os.system("clear")
   os.system("webinfo")
-if question == "c16":
+if question == "c14":
   os.system("clear")
   which = input("(d)omain, (e)mail, (k)eyword, (p)hone, (u)sername?: ")
   if which == "d":
@@ -210,7 +210,7 @@ if question == "c16":
     username = input("What username?: ")
     os.system("clear")
     os.system("cd ~ && cd ~/go/bin && ./leaker username " + username)
-if question == "c17":
+if question == "c15":
   os.system("clear")
   website = input("Please enter a website: ")
   os.system("clear")
