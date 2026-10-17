@@ -10,19 +10,16 @@ This project is looking for a maintainer, if you want to take over the project, 
 
 ```
 Attack Tools:
-(a1). darksploit-framework - Tool to run and create exploits.
-(a2). Ransomware - A tool to create Ransomware.
-(a3). powerdos - Denial-Of-Service tool.
-(a4). GoldenEye - Denial-Of-Service tool.
-(a5). EliteToolKit - Denial-Of-Service tool.
-(a6). TextBelt-Spammer - SMS spamming tool.
+(a1). Ransomware - A tool to create Ransomware.                                                             (a2). powerdos - Denial-Of-Service tool.
+(a3). GoldenEye - Denial-Of-Service tool.
+(a4). EliteToolKit - Denial-Of-Service tool.
+(a5). TextBelt-Spammer - SMS spamming tool.
 
 Defensive Tools:
-(b1). bitb-framework - Browser in the browser attack framework.
-(b2). cctvip - CCTVPIP camera database.
-(b3). local2onion - Expose localhost on the darkweb using Tor.
-(b4). maskme - URL masking tool.
-(b5). shorturl - URL shortening tool.
+(b1). cctvip - CCTVPIP camera database.
+(b2). local2onion - Expose localhost on the darkweb using Tor.
+(b3). maskme - URL masking tool.
+(b4). shorturl - URL shortening tool.
 
 Information Gathering:
 (c1). darkcrawler - Crawl .onion sites through Tor and generate threat reports.
