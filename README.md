@@ -3,6 +3,11 @@
 
 An installer and launcher for **the revolution party** (old) **3432's** usage of Termux.
 
+## NOTICE
+```
+This project has been archived (Sat, Oct 17, 2026), and is looking for a maintainer, if you want to take over the project, please do, and fork it.
+```
+
 ```
 Attack Tools:
 (a1). darksploit-framework - Tool to run and create exploits.
