@@ -5,7 +5,7 @@ An installer and launcher for **the revolution party** (old) **3432's** usage of
 
 ## NOTICE
 ```
-This project has been archived (Sat, Oct 17, 2026), and is looking for a maintainer, if you want to take over the project, please do, and fork it.
+This project is looking for a maintainer, if you want to take over the project, please do, and fork it.
 ```
 
 ```
