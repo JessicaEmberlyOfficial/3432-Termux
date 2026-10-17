@@ -15,19 +15,17 @@ question = input("""
 //   |__/   \______/  \______/ |________/ \______/  //
 //////////////////////////////////////////////////////
 \33[91mAttack Tools:
-(a1). darksploit-framework - Tool to run and create exploits.
-(a2). Ransomware - A tool to create Ransomware.
-(a3). powerdos - Denial-Of-Service tool.
-(a4). GoldenEye - Denial-Of-Service tool.
-(a5). EliteToolKit - Denial-Of-Service tool.
-(a6). TextBelt-Spammer - SMS spamming tool.
+(a1). Ransomware - A tool to create Ransomware.
+(a2). powerdos - Denial-Of-Service tool.
+(a3). GoldenEye - Denial-Of-Service tool.
+(a4). EliteToolKit - Denial-Of-Service tool.
+(a5). TextBelt-Spammer - SMS spamming tool.
 
 \33[94mDefensive Tools:
-(b1). bitb-framework - Browser in the browser attack framework.
-(b2). cctvip - CCTVPIP camera database.
-(b3). local2onion - Expose localhost on the darkweb using Tor.
-(b4). maskme - URL masking tool.
-(b5). shorturl - URL shortening tool.
+(b1). cctvip - CCTVPIP camera database.
+(b2). local2onion - Expose localhost on the darkweb using Tor.
+(b3). maskme - URL masking tool.
+(b4). shorturl - URL shortening tool.
 
 \33[93mInformation Gathering:
 (c1). darkcrawler - Crawl .onion sites through Tor and generate threat reports.
@@ -74,14 +72,11 @@ Social Engineering:
 
 \33[97mPlease make a choice: """)
 if question == "a1":
-  os.system("clear")
-  os.system("darksploit-framework")
+  os.system("cd ~/Ransomware/ && python3 Ransomware")
 if question == "a2":
-  os.system("cd " + os.getcwd() + "/Ransomware/ && python3 Ransomware")
-if question == "a3":
   os.system("clear")
   os.system("powerdos")
-if question == "a4":
+if question == "a3":
   os.system("clear")
   useragents = input("Do you want to use the default user agents? (y, or n): ")
   if useragents == "y":
@@ -116,9 +111,9 @@ if question == "a4":
     debug = input("Do you want debug enabled? (True, or False): ")
     os.system("clear")
     os.system("python " + os.getcwd() + "/GoldenEye/goldeneye.py " + target + " -u " + os.getcwd() + "/" + uafile + " -w " + workers + " -s " + sockets + " -m " + method + " -n " + verify + " -d " + debug)
+if question == "a4":
+  os.system("clear && python ~/EliteToolKit/elitekitv1.py")
 if question == "a5":
-  os.system("clear && python " + os.getcwd() + "/EliteToolKit/elitekitv1.py")
-if question == "a6":
   os.system("clear")
   print("Please customize your (*.ini) file in order to exceed the 10 message limit.")
   time.sleep(5)
@@ -128,17 +123,14 @@ if question == "a6":
 
 if question == "b1":
   os.system("clear")
-  os.system("bitb-framework")
+  os.system("cctvip")
 if question == "b2":
   os.system("clear")
-  os.system("cctvip")
+  os.system("local2onion")
 if question == "b3":
   os.system("clear")
-  os.system("local2onion")
-if question == "b4":
-  os.system("clear")
   os.system("maskme")
-if question == "b5":
+if question == "b4":
   os.system("clear")
   os.system("shorturl")
   
@@ -156,7 +148,7 @@ if question == "c4":
   os.system("instaghost")
 if question == "c5":
   os.system("clear")
-  os.system("python " + os.getcwd() + "/ipinfo/ipinfo.py")
+  os.system("python ~/ipinfo/ipinfo.py")
 if question == "c6":
   os.system("clear")
   os.system("locateme")
@@ -165,7 +157,9 @@ if question == "c7":
   os.system("maigret")
 if question == "c8":
   os.system("clear")
-  os.system("numinfo")
+  pn = input("Please enter a phone number (e.g. +11111111111).: ")
+  os.system("clear")
+  os.system("numinfo " + pn)
 if question == "c9":
   os.system("clear")
   os.system("onionsearch")
@@ -221,7 +215,7 @@ if question == "d1":
   os.system("clear")
   os.system("elpscrk -x " + os.getcwd() + "/passwords.txt")
 if question == "d2":
-  os.system("clear && cd " + os.getcwd() + "/GoblinWordGenerator && python3 goblin.py")
+  os.system("clear && cd ~/GoblinWordGenerator && python3 goblin.py")
 if question == "d3":
   os.system("clear")
   os.system("hydra")
@@ -232,7 +226,7 @@ if question == "d4":
   passlist = input("Where is your passlist? (e.g. ~/mypasslist.txt): ")
   os.system("clear && cd " + os.getcwd() + "/instabruteforce && python -u " + username + "-p " + passlist)
 if question == "d5":
-  os.system("clear && cd SMTP_Tester && python smtp_tester.py")
+  os.system("clear && cd ~/SMTP_Tester && python smtp_tester.py")
   
 if question == "e1":
   os.system("clear")
@@ -252,7 +246,7 @@ if question == "e5":
 
 if question == "f1":
   os.system("clear")
-  os.system("afrog")
+  os.system("afrog -h")
 if question == "f2":
   os.system("clear")
   os.system("ngrok")
