@@ -16,7 +16,7 @@ Attack Tools:
 (a5). TextBelt-Spammer - SMS spamming tool.
 
 Defensive Tools:
-(b1). cctvip - CCTVPIP camera database.
+(b1). cctvip - CCTV IP camera database.
 (b2). local2onion - Expose localhost on the darkweb using Tor.
 (b3). maskme - URL masking tool.
 (b4). shorturl - URL shortening tool.
