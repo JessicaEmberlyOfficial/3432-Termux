@@ -57,7 +57,7 @@ Web Security and Tunneling:
 (f2). ngrok - Secure tunneling to localhost.
 
 Case Development:
-(g1). cng - Case number generator.
+(g1). ruby - A piece of software to assist in investigations.
 
 Encryption Tools:
 (h1). Stra1n - Encryption algorithm.
