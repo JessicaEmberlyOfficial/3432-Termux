@@ -253,7 +253,7 @@ if question == "f2":
 
 if question == "g1":
   os.system("clear")
-  os.system("python /Ruby/run.py")
+  os.system("python " + os.getcwd() + "/Ruby/run.py")
 if question == "h1":
   os.system("clear")
   print("Please customize the (*.ini) file for Stra1n in-order to allow for Stra1n to be un-readable to prying eyes.")
